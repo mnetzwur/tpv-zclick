@@ -14,7 +14,7 @@ I am not a software developer and the below is an ugly hack. It comes with zero 
 
 3. Quit the app.
 4. Now download the TPVirtual-Click.py from this repository and save it to your Downloads folder.
-5. WAKE UP the Zwift Click BEFORE you run this script by pressing one of the buttons until the blue light blinks.
+5. **WAKE UP** the Zwift Click **BEFORE** you run this script by pressing one of the buttons until the blue light blinks.
 6. Open the Terminal and type "python TPVirtual-Click.py" and wait, the script should launch TP Virtual and the QZ App if everything works as expected. Once you ride in the app, pressing the click's up and down buttons should change the virtual gears on TP.
 
 Notes: This assumes that you're not using the QZ app for anything else. This script deletes debug logs of the QZ app when it starts. When the script starts it attempts to find the directory in which QZ app stores it's logfiles. If that doesn't work, you may have to find that directory yourself. It's somewhere in ~/Library/Containers/. 
