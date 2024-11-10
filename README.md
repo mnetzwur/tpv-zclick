@@ -3,6 +3,8 @@ Use TP Virtual/IndieVelo with Zwift Click on macOS
 
 The purpose of this script is to use the QZ App on MacOS to intercept zwift click events and then send keypresses to IndieVelo/TrainingPeaks Virtual to change the virtual gear. The advantage over using the QZ App directly is that the shifting is implemented within TrainingPeaks Virtual and power will come directly from your trainer/powermeter rather than the QZ App, which should not violate the performance verification of IndieVelo races. 
 
+*I hope someone will render this script obsolete by implementing a driver for the Zwift Click on macOS that would not require all this resource-hungry working around.*
+
 I am not a software developer and the below is an ugly hack. It comes with zero warranty. USE AT YOUR OWN RISK.
 
 ## Installation
