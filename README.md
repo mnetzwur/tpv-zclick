@@ -7,7 +7,7 @@ The purpose of this script is to use the QZ App on MacOS to intercept zwift clic
 
 I am not a software developer and the below is an ugly hack. It comes with zero warranty. USE AT YOUR OWN RISK.
 
-## Installation
+## INSTALLATION
 1. Install the QZ App from the macOS appstore.
 2. Install the Trainingpeaks Virtual App from the TrainingPeaks Website[1]. 
 3. Before you run this script, run the QZ app (qdomyoszwift) at least once and enable the Zwift Click/Zwift Play Driver. Click on the menu in the top left corner, then Accessories->Zwift Devices Options, then enable "Zwift Click" or "Zwift Play" as well as "Buttons Debouncing." **Note: touchpad scrolling doesn't work in this app on macos, you have to click and drag to scroll.**
@@ -21,3 +21,8 @@ I am not a software developer and the below is an ugly hack. It comes with zero 
 
 Notes: This assumes that you're not using the QZ app for anything else. This script deletes debug logs of the QZ app when it starts. When the script starts it attempts to find the directory in which QZ app stores it's logfiles. If that doesn't work, you may have to find that directory yourself. It's somewhere in ~/Library/Containers/. 
 
+## KNOWN ISSUES
+
+- The first time you run this script, macOS is going to ask for accessibility permissions for the Terminal window. This could probably be fixed by making a proper app out of this script. 
+- This only works with TrainingPeaks Virtual in windowed mode (Change under Graphics Settings in-game). Shifting does not work in Fullscreen mode.
+- When you're done riding, you should quit the script by hitting CTRL+C in the Terminal window. This will close the qz app instance. macOS is probably going to claim that it quit "unexpectedly," you can ignore that.
